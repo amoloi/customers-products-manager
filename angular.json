@@ -24,9 +24,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "npm_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/fonts/material-icons/material-icons.css",
+              "src/assets/fonts/glyphicons/glyphicons.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "product-management"
+    }
+  },
+  "defaultProject": "product-management",
+  "cli": {
+    "analytics": "e5edbad4-424b-44c8-abed-a6921ca8905c"
+  }
 }
